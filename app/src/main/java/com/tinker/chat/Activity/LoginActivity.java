@@ -36,7 +36,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         RongIM.connect(TOKEN, new RongIMClient.ConnectCallback() {
             @Override
             public void onSuccess(String s) {
-                Intent intent=new Intent(LoginActivity.this, MainActivity.class);
+//                RongIM.getInstance().setCurrentUserInfo(new UserInfo(s,"HH", Uri.parse(RongGenerate.generateDefaultAvatar("TT", s))));
+                Intent intent=new Intent(LoginActivity.this,ControlActivity.class);
                 startActivity(intent);
             }
 

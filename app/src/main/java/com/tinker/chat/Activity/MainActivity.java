@@ -1,14 +1,14 @@
 package com.tinker.chat.Activity;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 
 import com.tinker.chat.R;
 
 /**
  * Created by tiankui on 16/8/20.
  */
-public class MainActivity extends Activity{
+public class MainActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

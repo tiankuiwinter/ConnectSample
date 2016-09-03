@@ -4,8 +4,8 @@
     android:layout_height="match_parent">
 
     <fragment
-        android:id="@+id/ac_fr_conversation"
+        android:id="@+id/ac_fr_conversation_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="io.rong.imkit.fragment.ConversationFragment"></fragment>
+        android:name="io.rong.imkit.fragment.ConversationListFragment"></fragment>
 </LinearLayout>
